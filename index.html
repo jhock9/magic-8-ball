@@ -11,37 +11,31 @@
   <script src="js/script.js" defer></script>
 </head>
 
-<body>
-  <div class="page">
-
+<body class="center">
+  <div class="container center">
     <header>
       <h1>MAGIC <span>8</span> BALL</h1>
     </header>
 
-  <div class="ball">
+    <div class="ball-wrapper center">
+      <p id="answer" class="answer center">
+        THIS IS WHERE THE ANSWER GOES
+      </p>
+      <img src="img/magic8ball-front.png" alt="Magic 8 Ball Default Image" class="ball" id="8ball">
+    </div>
 
-    <p id="answer" class="answer" align="center" >
-      THIS IS WHERE THE ANSWER GOES
-    </p>
+    <div class="button-wrapper center">
+      <button id="questionButton" class= "button center">ASK ME ANYTHING </button>
+    </div>
 
-    <img id="8ball" alt="Magic 8 Ball Default Image" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/8side.png">
-  </div>
+    <footer>
+      <p>© Jon Hocker 2021</p>
+    </footer>
 
-  
-
-  <div class="button">
-    <button id="questionButton">ASK ME ANYTHING </button>
-  </div>
-
-  <footer>
-    <p>© Jon Hocker 2021</p>
-  </footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
   </div>
 </body>
-
 </html>
